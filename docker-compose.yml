@@ -34,7 +34,7 @@ services:
       # on the loopback/LAN. MCP_PORT (from .env) drives both the host port
       # and the port the server listens on. Set MCP_BIND=0.0.0.0 to expose
       # on the LAN instead of loopback only.
-      - "${MCP_BIND:-127.0.0.1}:${MCP_PORT:-8080}:${MCP_PORT:-8080}"
+      - "${MCP_BIND:-127.0.0.1}:${MCP_PORT:-8070}:${MCP_PORT:-8070}"
     networks:
       - mailnet
 
